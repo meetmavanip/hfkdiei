@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon"  type="x-icon" href="img/running-people-in-motion-simple-symbol-run-vector-3273556.jpg">
+  <title>THE FITNESS GYM - Enquiry</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: white;
+  
+  
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+input[type="text"], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+}
+button a{
+  text-decoration: none;
+  color: black;
+}
+</style>
+</head>
+<body>
+  
+
+<h2 align="center">Enquire form</h2>
+
+<form action="/submit_form">
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+
+  <label for="email">Email</label>
+  <input type="text" id="email" name="email" placeholder="Your email..">
+
+  <label for="mobile">Mobile</label>
+  <input type="text" id="mobile" name="mobile" placeholder="Your mobile number..">
+
+  <label for="member">Are you a THE Fitness  Member?</label>
+  <select id="member" name="member">
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+  </select>
+
+  <label for="state">State</label>
+  <select id="state" name="state">
+    <option value="state1">gondal</option>
+    <option value="state2">rajkot</option>
+    <option value=" state3">morbi</option>
+    <option value="state4"> jamnagar</option>
+    <!-- Add more options as needed -->
+  </select>
+
+ 
+
+  <button style="height: 42px; width: 302px; color:whitesmoke; background-color: #4CAF50;" > <a href="index.html">SUBMIT</a></button>
+</form>
+
+</body>
+</html>
